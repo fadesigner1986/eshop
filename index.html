@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="fa" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,8 +12,8 @@
 <body>
     <div class="wrapper">
         <header class="header">
-            <div class="topinfo">
-                <ul class="accountlist">
+            <div class="topinfo flex">
+                <ul class="accountlist flex">
                     <li class="accountlistitem">
                         <a href="" class="accountlistlink">
                             <i class="fas fa-user"></i>ثبت نام</a>
@@ -27,7 +27,40 @@
                     <img src="images/icons/iran.png" alt="persian language" class="fa-icon">فارسی
                 </div>
             </div>
-            <div class="header_info">
+            <div class="header_info flex">
+                <div class="logo">
+                    <img src="images/logo.png" alt="logo">
+                </div>
+                <div class="searchbox flex">
+                    <select name="" id="" class="categorylist">
+                        <option value="1">کامپیوتر</option>
+                        <option value="1">موبایل</option>
+                        <option value="1">شبکه</option>
+                        <option value="1">پرینتر</option>
+                    </select>
+                    <input class="searchinputP" type="text" name="" id="" placeholder="عنوانی برای جستجو وارد کنید">
+                    <a class="btnsearch" href=""><i class="fas fa-search"></i></a>
+                </div>
+                <div class="contactus flex">
+                    <div class="contactusicon">
+                        <i class="fas fa-headset contacticon"></i>
+                    </div>
+                    <div class="contactusinfo">
+                        <span>شماره تماس فروشگاه :</span>
+                        <br>
+                        <span>تلفن : ۹۸۱۲۳۴۵۶۷۸۹۰+</span>
+                    </div>
+                </div>
+                <div class="cart flex">
+                    <div class="contactusicon">
+                        <i class="fas fa-shopping-basket carticon"></i>
+                    </div>
+                    <div class="contactusinfo">
+                        <span>سبد خرید :</span>
+                        <br>
+                        <span>۲ محصول به مبلغ ۱۵۰۰۰۰ تومان</span>
+                    </div>
+                </div>
             </div>
             <div class="mainnav"></div>
         </header>
