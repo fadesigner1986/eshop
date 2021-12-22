@@ -303,7 +303,37 @@
 .hotsaleimage {
     width: 150px;
 }
+.hotsaleimage img {
+    width: 100%;
+}
 .hotsaleinfo {
     flex-grow: 1;
+}
+.hotcategoryitems {
+    width: 25%;
+}
+.hotcategorydetails {
+    margin: 10px;
+   /* text-align: center;*/
+}
+.hotcategoryimage {
+    position: relative;
+}
+.hotcategorydetails img {
+    width: 100%;
+}
+.hotcategorydetails .btn {
+    position: absolute;
+    bottom: 27px;
+    right: 24px;
+}
+.hotcategoryitems>h4 {
+    margin: 0;
+}
+.hotcategorylistitem {
+    list-style: square;
+}
+.hotcategorylistitem:hover a{
+    color: #f4a137;
 }
 /*  footer  */
